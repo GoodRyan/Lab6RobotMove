@@ -23,3 +23,19 @@ void configureTimer(){
 
 	    TACTL |= MC0;                // count up
 }
+
+void moveRobotForward(){
+
+}
+
+void moveRobotBackward(){
+
+}
+
+void turnRobotLeft(){
+
+}
+
+void turnRobotRight(){
+
+}

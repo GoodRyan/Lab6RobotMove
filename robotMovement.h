@@ -14,3 +14,11 @@
 void initializePinOuts();
 
 void configureTimer();
+
+void moveRobotForward();
+
+void moveRobotBackward();
+
+void turnRobotLeft();
+
+void turnRobotRight();

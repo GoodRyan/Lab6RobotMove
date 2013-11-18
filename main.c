@@ -14,11 +14,11 @@ int main(void)
 
     configureTimer();
 
-    P1OUT |= BIT2;
-    P1OUT &= ~BIT1;
-
     while (1) {
     }
+
+    //P1OUT |= BIT2;
+    //P1OUT &= ~BIT1;
 
     return 0;
 }
