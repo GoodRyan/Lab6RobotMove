@@ -29,11 +29,13 @@ void leftMotorForward(){
 }
 
 void leftMotorBackward(){
-
+    P1OUT |= BIT2;
+    P1OUT &= ~BIT1;
 }
 
 void rightMotorForward(){
-
+	P2OUT |= BIT0;
+	P2OUT &= ~BIT1;
 }
 
 void rightMotorBackward(){
@@ -49,7 +51,8 @@ void moveRobotBackward(){
 }
 
 void turnRobotLeft(){
-
+	leftMotorBackward();
+	rightMotorForward();
 }
 
 void turnRobotRight(){

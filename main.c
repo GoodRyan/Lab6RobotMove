@@ -14,11 +14,10 @@ int main(void)
 
     configureTimer();
 
+    turnRobotLeft();
+
     while (1) {
     }
-
-    //P1OUT |= BIT2;
-    //P1OUT &= ~BIT1;
 
     return 0;
 }
